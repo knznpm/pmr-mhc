@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Obat-obatan UKS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Data Obat-obatan UKS SMK Muthia Harapan Cicalengka</h1>
+        <div class="form-container">
+            <input type="text" id="namaObat" placeholder="Nama Obat">
+            <input type="text" id="jenisObat" placeholder="Jenis Obat">
+            <input type="text" id="fungsiObat" placeholder="Fungsi">
+            <input type="number" id="stokObat" placeholder="Stok">
+            <button id="addBtn">Tambah Obat</button>
+        </div>
+        <table id="obatTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Obat</th>
+                    <th>Jenis Obat</th>
+                    <th>Fungsi</th>
+                    <th>Stok</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data obat akan ditambahkan secara dinamis di sini -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
